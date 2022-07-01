@@ -37,7 +37,7 @@ jobs:
 
       # Upload artifact
       - name: Run a multi-line script
-        uses: actions/upload-artifact@vi
+        uses: actions/upload-artifact@v1
         with:
           name: book-github-actions-package
           path: dest
